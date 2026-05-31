@@ -1,0 +1,9 @@
+/.gradle
+/.vscode
+/build
+/build.gradle
+/CHANGELOG.md
+/gradle.properties
+/settings.gradle
+/USAGE.md
+/更新日志.md

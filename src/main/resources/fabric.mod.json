@@ -1,0 +1,27 @@
+{
+  "schemaVersion": 1,
+  "id": "entity_compass",
+  "version": "${version}",
+  "name": "Entity Compass",
+  "description": "Adds a compass-like item that can point to nearby loaded entities selected by right-clicking the compass.",
+  "authors": [
+    "CS ESP"
+  ],
+  "contact": {},
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.csesp.entitycompass.EntityCompassMod"
+    ],
+    "client": [
+      "com.csesp.entitycompass.client.EntityCompassClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.18.4",
+    "minecraft": "~1.21.11",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
