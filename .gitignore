@@ -1,9 +1,10 @@
-/.gradle
-/.vscode
-/build
-/build.gradle
-/CHANGELOG.md
-/gradle.properties
-/settings.gradle
-/USAGE.md
-/更新日志.md
+.gradle/
+build/
+
+# Local IDE settings
+.vscode/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*.log
